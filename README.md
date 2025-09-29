@@ -34,7 +34,7 @@ addon | version | maintainers | summary
 [stock_demand_estimate_matrix](stock_demand_estimate_matrix/) | 16.0.1.0.0 |  | Allows to create demand estimates.
 [stock_exception](stock_exception/) | 16.0.1.1.0 |  | Custom exceptions on stock picking
 [stock_helper](stock_helper/) | 16.0.1.1.0 |  | Add methods shared between various stock modules
-[stock_inventory](stock_inventory/) | 16.0.2.5.0 |  | Allows to do an easier follow up of the Inventory Adjustments
+[stock_inventory](stock_inventory/) | 16.0.2.6.0 |  | Allows to do an easier follow up of the Inventory Adjustments
 [stock_inventory_count_to_zero](stock_inventory_count_to_zero/) | 16.0.1.0.0 |  | Request an inventory count filling the quantities to zero as default
 [stock_inventory_discrepancy](stock_inventory_discrepancy/) | 16.0.2.1.0 |  | Adds the capability to show the discrepancy of every line in an inventory and to block the inventory validation when the discrepancy is over a user defined threshold.
 [stock_inventory_justification](stock_inventory_justification/) | 16.0.1.0.0 | <a href='https://github.com/rousseldenis'><img src='https://github.com/rousseldenis.png' width='32' height='32' style='border-radius:50%;' alt='rousseldenis'/></a> <a href='https://github.com/ThomasBinsfeld'><img src='https://github.com/ThomasBinsfeld.png' width='32' height='32' style='border-radius:50%;' alt='ThomasBinsfeld'/></a> | This module allows to set justification on inventories
@@ -75,7 +75,7 @@ addon | version | maintainers | summary
 [stock_putaway_product_template](stock_putaway_product_template/) | 16.0.1.1.0 | <a href='https://github.com/kevinkhao'><img src='https://github.com/kevinkhao.png' width='32' height='32' style='border-radius:50%;' alt='kevinkhao'/></a> <a href='https://github.com/sebastienbeau'><img src='https://github.com/sebastienbeau.png' width='32' height='32' style='border-radius:50%;' alt='sebastienbeau'/></a> | Add product template in putaway strategies from the product view
 [stock_quant_cost_info](stock_quant_cost_info/) | 16.0.1.0.0 |  | Shows the cost of the quants
 [stock_quant_expiration_date_tree](stock_quant_expiration_date_tree/) | 16.0.1.1.0 | <a href='https://github.com/manuelcalerosolis'><img src='https://github.com/manuelcalerosolis.png' width='32' height='32' style='border-radius:50%;' alt='manuelcalerosolis'/></a> | Allows to display expirations dates on stock quant tree view
-[stock_quant_manual_assign](stock_quant_manual_assign/) | 16.0.1.2.0 |  | Stock - Manual Quant Assignment
+[stock_quant_manual_assign](stock_quant_manual_assign/) | 16.0.1.3.0 |  | Stock - Manual Quant Assignment
 [stock_quant_reservation_info](stock_quant_reservation_info/) | 16.0.1.0.1 |  | Allows to see the reserved info of Products
 [stock_quant_reservation_info_mrp](stock_quant_reservation_info_mrp/) | 16.0.1.0.0 |  | Allows to see the manufacturing order related to the reserved info of Products
 [stock_quant_safe_inventory](stock_quant_safe_inventory/) | 16.0.1.0.1 |  | Prevents the quantity on the quant from being updated if quantities have already been picked but not validated in pickings in progress.
