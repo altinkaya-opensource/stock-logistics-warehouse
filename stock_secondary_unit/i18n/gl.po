@@ -4,12 +4,12 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2026-05-26 08:46+0000\n"
-"Last-Translator: mymage <stefano.consolaro@mymage.it>\n"
+"PO-Revision-Date: 2026-05-23 18:33+0000\n"
+"Last-Translator: Pablo Castelo <pablocv@gmx.es>\n"
 "Language-Team: none\n"
-"Language: it\n"
+"Language: gl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -19,73 +19,73 @@ msgstr ""
 #. module: stock_secondary_unit
 #: model_terms:ir.ui.view,arch_db:stock_secondary_unit.report_delivery_document
 msgid "<strong>Secondary Qty</strong>"
-msgstr "<strong>Qty Secondaria</strong>"
+msgstr "<strong>Cantidade secundaria</strong>"
 
 #. module: stock_secondary_unit
 #: model:ir.model.fields,field_description:stock_secondary_unit.field_stock_move__product_uom_qty
 #: model:ir.model.fields,field_description:stock_secondary_unit.field_stock_reservation__product_uom_qty
 msgid "Demand"
-msgstr "Fabbisogno"
+msgstr "Demanda"
 
 #. module: stock_secondary_unit
 #: model:ir.model.fields,field_description:stock_secondary_unit.field_stock_move_line__qty_done
 msgid "Done"
-msgstr "Evasa"
+msgstr "Feito"
 
 #. module: stock_secondary_unit
 #: model:ir.model,name:stock_secondary_unit.model_product_template
 msgid "Product"
-msgstr "Prodotto"
+msgstr "Produto"
 
 #. module: stock_secondary_unit
 #: model:ir.model,name:stock_secondary_unit.model_stock_move_line
 msgid "Product Moves (Stock Move Line)"
-msgstr "Movimenti prodotto (riga movimento di magazzino)"
+msgstr "Movementos de produtos (liña de movemento de existencias)"
 
 #. module: stock_secondary_unit
 #: model:ir.model,name:stock_secondary_unit.model_product_product
 msgid "Product Variant"
-msgstr "Variante prodotto"
+msgstr ""
 
 #. module: stock_secondary_unit
 #: model:ir.model.fields,field_description:stock_secondary_unit.field_product_product__secondary_unit_qty_available
 #: model:ir.model.fields,field_description:stock_secondary_unit.field_product_template__secondary_unit_qty_available
 #: model:ir.model.fields,field_description:stock_secondary_unit.field_stock_product_secondary_unit_mixin__secondary_unit_qty_available
 msgid "Quantity On Hand (2Unit)"
-msgstr "Quantità disponibile (2 unità)"
+msgstr "Cantidade a man (2Vde.)"
 
 #. module: stock_secondary_unit
 #: model:ir.model.fields,field_description:stock_secondary_unit.field_stock_move__secondary_uom_id
 #: model:ir.model.fields,field_description:stock_secondary_unit.field_stock_move_line__secondary_uom_id
 msgid "Second unit"
-msgstr "Seconda unità"
+msgstr "Segunda unidade"
 
 #. module: stock_secondary_unit
 #: model:ir.model.fields,field_description:stock_secondary_unit.field_product_product__stock_secondary_uom_id
 #: model:ir.model.fields,field_description:stock_secondary_unit.field_product_template__stock_secondary_uom_id
 msgid "Second unit for inventory"
-msgstr "Unità secondaria per l'inventario"
+msgstr "Segunda unidade de medida para inventario"
 
 #. module: stock_secondary_unit
 #: model:ir.model.fields,field_description:stock_secondary_unit.field_stock_move__secondary_uom_qty
 #: model:ir.model.fields,field_description:stock_secondary_unit.field_stock_move_line__secondary_uom_qty
 msgid "Secondary Qty"
-msgstr "Q.tà secondaria"
+msgstr "Cantd Secundaria"
 
 #. module: stock_secondary_unit
 #: model_terms:ir.ui.view,arch_db:stock_secondary_unit.view_template_property_form
 msgid "Secondary unit"
-msgstr "Unità secondaria"
+msgstr "Unidade Secundaria"
 
 #. module: stock_secondary_unit
 #: model:ir.model,name:stock_secondary_unit.model_stock_move
 msgid "Stock Move"
-msgstr "Movimento di magazzino"
+msgstr "Movemento de existencias"
 
 #. module: stock_secondary_unit
 #: model:ir.model,name:stock_secondary_unit.model_stock_product_secondary_unit_mixin
 msgid "Stock Product Secondary Unit Mixin"
-msgstr "Mixin unità secondaria del prodotto"
+msgstr ""
 
 #. module: stock_secondary_unit
 #: model:ir.model.fields,help:stock_secondary_unit.field_stock_move__product_uom_qty
@@ -98,12 +98,9 @@ msgid ""
 "this quantity on assigned moves affects the product reservation, and should "
 "be done with care."
 msgstr ""
-"Questa è la quantità di prodotto dal punto di vista dell'inventario. Per "
-"movimenti in stato 'eseguito', questa è la quantità di prodotto che è stata "
-"effettivamente movimentata. Per altri movimenti, questa è la quantità del "
-"prodotto pianificata per essere movimentata. Ridurre la quantità non genera "
-"un ordine residuo. Modificare questa quantità nei movimenti assegnati incide "
-"sulla prenotazione del prodotto e deve essere eseguita con attenzione."
-
-#~ msgid "Product Template"
-#~ msgstr "Modello prodotto"
+"É a cantidade de produtos desde o punto de vista do inventario. Para os "
+"movementos en estado \"realizado\", é a cantidade de produtos que se moveron "
+"realmente. Para outros movementos, é a cantidade de produtos que está "
+"previsto mover. A redución desta cantidade non xera un pedido pendente. A "
+"modificación desta cantidade nos movementos asignados afecta a reserva de "
+"produtos, e debe facerse con coidado."
